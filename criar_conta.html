@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar Conta</title>
+  <link rel="stylesheet" href="index.css"> <!-- Use o mesmo CSS da página de login -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+  <div id="create-account-container"> <!-- Defina um ID apropriado para o container -->
+    <h1>Criar Conta</h1>
+    <form id="create-account-form"> <!-- Use um ID apropriado para o formulário -->
+      <label for="new-username">Novo Usuário:</label>
+      <input type="text" id="new-username" placeholder="Digite seu novo usuário" required>
+      <label for="new-password">Nova Senha:</label>
+      <input type="password" id="new-password" placeholder="Digite sua nova senha" required>
+      <label for="new-password">Confirmar senha:</label>
+      <input type="password" id="new-password" placeholder="Confirmar senha" required>
+
+      <!-- Outros campos de informações do usuário -->
+      <button type="submit">Registrar</button>
+    </form>
+
+    <div class="additional-options">
+      <a href="login.html" id="login-button">Voltar para o Login</a> <!-- Adicione um link de volta para o login -->
+    </div>
+  </div>
+
+  <script src="create_account.js"></script> <!-- Use um arquivo JavaScript separado para funcionalidades específicas da criação de conta, se necessário -->
+</body>
+</html>

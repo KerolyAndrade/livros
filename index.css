@@ -1,0 +1,78 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #e8dfd5;
+    background-image: url('imagens/livros.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #login-container {
+    background-color: rgba(211, 192, 163, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #a59c8b;
+  }
+  
+  h1 {
+    color: #6b5830;
+    margin-bottom: 20px;
+    font-size: 24px; /* Reduzindo um pouco o tamanho do título */
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #6b5830;
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #a59c8b;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px; /* Aumentando o padding para um botão mais proeminente */
+    margin-top: 10px;
+    background-color: #4e4020;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adicionando uma transição suave */
+  }
+  
+  button:hover {
+    background-color: #362d19;
+  }
+  
+  #forgot-password-button, #create-account-button {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6b5830;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  #forgot-password-button:hover, #create-account-button:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
